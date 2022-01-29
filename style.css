@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(img/leon.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+
+}
+.login-box{
+    width: 320px;
+    height: 420px;
+    background: #fff;
+    color: #000;
+    top: 50%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 20px;
+    box-shadow: 1px 5px 1px 30px  #0000009c;
+}
+.login-box .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+
+}
+.login-box h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    font-family: cursive;
+    
+}
+.login-box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"],
+.login-box input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000;
+    font-family: 16px;
+}
+.login-box a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000;
+    font-weight: 750;
+}
+
+.ingreso {
+    border:none;
+    margin: 5px;
+    padding: 10px;
+    background-color:#F8C471 ;
+    color: #000;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 65px;
+    display: block;
+    width: 80px;
+    text-decoration: none;
+}
+
+
+.login-box a:hover{
+  color: #F89723 ;
+  cursor: pointer;
+}
+.texto {
+    
+    margin-left: 60%;
+    font-size: 30px;
+    text-shadow: 2px 2px 7px #fff,2px 2px 7px #fff;	
+    position: absolute;
+    top: 190px;
+    
+}
